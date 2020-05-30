@@ -1,0 +1,94 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.Header {
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(255, 123, 0);
+}
+
+.HeaderText {
+    font-size: 5vh;
+    color: white;
+    margin: .7vh 0 0 1vw;
+}
+
+.ResultDescriptor {
+    color: orange;
+    font-size: 1vh;
+    margin: -2vh .5vw 0 0;
+}
+
+.TitleInfo {
+    color: black;
+    font-size: 1.3vh;
+    font-weight: 800;
+}
+
+.Author {
+    color:red;
+    font-size: 1vh;
+}
+
+.AuthorInfo {
+    
+    color: indigo;
+    font-size: 1.5vh;
+}
+
+.Points {
+    color: green;
+}
+
+.ExtraInfo {
+    margin: -1.5vh 0 1.5vh 1.75vw;
+    
+}
+
+.ResultsTable {
+    margin: 0 0 -6vh 1vw;
+    text-align: left;
+}
+
+
+.NoResultsHeaders {
+    margin: 10vh 0 5vh 0;
+    display: inline-block;
+    width: 80vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.SearchResultsBox {
+    margin: 2vh 0 3vh 0;
+    display: inline-block;
+    width: 70vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(246, 246, 239);
+    padding: 1vh 0 1vh 0;
+}
+
+.SearchBox {
+    margin-top: 2vh;
+    background-color: rgb(246, 246, 239);
+}
+
+.ResultInfo {
+    padding-right: 1vw;
+    font-size: 1.3vh;
+}
+
+button {
+    color: white;
+    background-color: orange;
+}
