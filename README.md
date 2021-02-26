@@ -1,5 +1,5 @@
 # Hacker News Algolia Search
-* Link: https://wferebee.github.io/rts/
+* Link: https://wferebee.github.io/HackerNewsAPI_Redux_React/
 
 ## Overview
 * The Hacker News Algolia Search App is primarily just a simple app that allows a user to search the Hack News Website using their API. This app was built with React and Redux and stores the user's queries in the Redux state, however it does not persist across sessions. The specific endpoint this app is hitting will return results by relevance first, then points, then number of comments.
