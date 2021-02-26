@@ -1,3 +1,55 @@
+# Hacker News Algolia Search
+* Link: https://wferebee.github.io/rts/
+
+## Overview
+* The Hacker News Algolia Search App is primarily just a simple app that allows a user to search the Hack News Website using their API. This app was built with React and Redux and stores the user's queries in the Redux state, however it does not persist across sessions. The specific endpoint this app is hitting will return results by relevance first, then points, then number of comments.
+
+## Screen Shots
+
+### (Typical result return after a search is preformed)
+![Screenshot (99)](https://user-images.githubusercontent.com/53095806/83322367-0afc0680-a225-11ea-863c-7998de70f8ae.png)
+
+##
+
+### (On the right in the console - Saving the queries with associated ids in the Redux state)
+ ![Screenshot (100)](https://user-images.githubusercontent.com/53095806/83322369-10595100-a225-11ea-8755-d6872ae8cf3c.png)
+
+##
+
+## This Project Was Built With
+* React
+* Redux
+* React-Redux
+* Readux-Thunk (middleware) for processing Aysnc actions
+* JavaScript
+* JSX
+* Hacker News Algolia API
+* GitHub Pages
+* HTML
+* CSS
+
+##
+
+## Future Additions
+* add filters for the user's search experience
+* add more Redux actions for filters
+* clean up code and make it more efficient 
+* add more validation to filter out undesirable search results
+ 
+ ## 
+ 
+ ## NOTES
+* <tr> Fragment tags need to be removed, no longer needed them but accidentally left them in.
+* fix commit history, made a mistake and deleted the repo, which was another mistkae, causing me to push the finsihed projet all at once.
+
+
+##
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
